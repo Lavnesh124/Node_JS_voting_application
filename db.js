@@ -3,7 +3,7 @@ require('dotenv').config();
 
  
 //Define the ,mongodb connection Url
-const mongoUrl=process.env.MONGODB_URL_LOCAL;
+const mongoUrl=process.env.MONGODB_URL;
 //const mongoUrl=process.env.MONGODB_URL
 
 //set up mongodb connection
